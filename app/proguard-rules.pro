@@ -23,3 +23,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep class com.hjq.gson.factory.** {*;}
+-keep class com.google.** {*;}
+-dontwarn kotlin.**
+-keep class kotlin.** { *; }
+-keep interface kotlin.** { *; }
